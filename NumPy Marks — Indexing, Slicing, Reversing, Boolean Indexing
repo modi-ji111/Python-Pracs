@@ -1,0 +1,15 @@
+import numpy as np
+
+marks = np.array([55, 72, 85, 60, 90, 68, 78])
+
+# Indexing
+print("Index 2:", marks[2])
+
+# Slicing
+print("Slicing:", marks[1:5])
+
+# Reversing
+print("Reversed:", marks[::-1])
+
+# Boolean indexing
+print("Marks >= 70:", marks[marks >= 70])
