@@ -1,0 +1,14 @@
+import pandas as pd
+
+data = {
+    "Region": ["North", "South", "East", "West"],
+    "Product": ["Laptop", "Phone", "Tablet", "Laptop"],
+    "Quantity": [5, 10, 8, 12],
+    "Revenue": [120000, 90000, 150000, 200000]
+}
+
+df = pd.DataFrame(data)
+
+result = df[df["Revenue"] > 100000]
+
+print(result)
