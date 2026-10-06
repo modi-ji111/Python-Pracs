@@ -1,0 +1,16 @@
+numbers = (10, 20, 30, 40, 50)
+
+# Indexing
+print("Index 2:", numbers[2])
+
+# Slicing
+print("Slicing:", numbers[1:4])
+
+# Iteration
+print("Iteration:")
+for num in numbers:
+    print(num)
+
+# Unpacking
+a, b, c, d, e = numbers
+print("Unpacked:", a, b, c, d, e)
