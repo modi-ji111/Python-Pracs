@@ -1,0 +1,10 @@
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Data Science",
+    "marks": 85
+}
+
+print("Keys:", student.keys())
+print("Values:", student.values())
+print("Items:", student.items())
