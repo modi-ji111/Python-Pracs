@@ -1,0 +1,11 @@
+import numpy as np
+
+a = np.zeros(5)
+b = np.ones(5)
+c = np.arange(1, 10, 2)
+d = np.linspace(0, 10, 5)
+
+print("Zeros:", a)
+print("Ones:", b)
+print("Arange:", c)
+print("Linspace:", d)
