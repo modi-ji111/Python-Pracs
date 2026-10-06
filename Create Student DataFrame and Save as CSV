@@ -1,0 +1,15 @@
+import pandas as pd
+
+data = {
+    "Name": ["Rahul", "Amit", "Priya", "Sneha"],
+    "Age": [20, 21, 20, 22],
+    "Marks": [85, 72, 90, 68]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+df.to_csv("students.csv", index=False)
+
+print("File saved successfully.")
