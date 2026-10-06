@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+products = ["Laptop", "Phone", "Tablet", "Watch"]
+revenue = [200000, 150000, 100000, 80000]
+
+plt.bar(products, revenue, color="skyblue")
+
+plt.title("Revenue by Product")
+plt.xlabel("Product")
+plt.ylabel("Revenue")
+
+plt.show()
