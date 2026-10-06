@@ -1,0 +1,16 @@
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "marks": 85
+}
+
+# Add a key
+student["course"] = "Data Science"
+
+# Update a value
+student["marks"] = 90
+
+# Delete a key
+del student["age"]
+
+print(student)
