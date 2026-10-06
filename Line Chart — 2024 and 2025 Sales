@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+months = ["Jan", "Feb", "Mar", "Apr", "May"]
+
+sales_2024 = [100, 120, 140, 130, 160]
+sales_2025 = [120, 140, 150, 160, 180]
+
+plt.plot(months, sales_2024, label="2024")
+plt.plot(months, sales_2025, label="2025")
+
+plt.title("Sales Comparison")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+
+plt.legend()
+plt.show()
